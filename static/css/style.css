@@ -1,0 +1,165 @@
+style.css
+
+/* Body */
+
+body{
+  background-color: #ededed;
+  margin:0px;
+  padding:0px;
+}
+
+/* Map */
+#map {
+  height: 800px;
+}
+
+  /* Navbar */
+  .navbar{
+    max-height: 50px; 
+	background-color: #cacccb; 
+    font-size: 15px; 
+  }
+  .navigation .navbar-brand{
+    color: white; 
+    margin-left: 50px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #4334eb;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .dropdown-item{
+	color: #191452 !important; 
+  }
+
+  .active, .dropdown-menu .dropdown-item:active a:hover{
+	background-color:#cacccb !important; 
+  }
+
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:#cacccb !important;
+  }
+
+  /* .dropdown-menu {
+  margin-right: auto;
+  } */
+
+  a{
+	color: #6D8092;
+	font-size: 15px; 
+  }
+  .nav-link:hover{
+	background-color:#cacccb !important;
+   }
+  
+  .navbar-brand:hover{
+  color: rgb(175, 175, 175) !important;
+  }
+  /* Images */
+  img{
+	width:100% !important;
+  height:100% !important;
+  }
+  .description-image {
+    float: left;
+    width: 60%;
+    height: 60%;
+  }
+
+  .active, .panel:hover{
+	border-color:#4334eb;
+	border-style: solid; 
+	
+  }
+  /* .vizualization{
+	width:50% !important;
+	height:50% !important;
+  } */
+
+
+  
+  /* Title Class  */
+  .title{
+	color: #4334eb;  
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bolder; 
+	padding-top: 25px; 
+  }
+  /* Paragraph Element */
+  p{
+  color: #6D8092;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px; 
+  }
+  /* Box Class */
+  .box1 {
+	margin-top: 25px; 
+	margin-bottom: 2px; 
+	padding: 10px 20px 15px; 
+	color:black;
+	background-color: white; 
+  
+  }
+  .box2 {
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+    
+    }
+  /* Table */
+  .table{
+	font-size: 15px; 
+	border-top-color: white !important; 
+  }
+
+  /* Media Queries */
+  @media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: #4334eb !important;
+  }
+  .navbar{
+	max-height: none; 
+	padding: inherit;
+  }
+  .navbar div{
+	margin: inherit; 
+	background-color: white;  
+  }
+  .navbar-brand{
+	padding: 10px !important; 
+  }
+  
+  button{
+	margin-left: auto; 
+  }
+  button:focus {
+  
+	outline: 1px dotted;
+	outline: 5px auto -webkit-focusring-color;
+  }
+  }
+    /* Footer */
+    footer{
+      background-color: #191452; 
+      border-top-style: solid; 
+      border-top-width: 5px; 
+      border-top-color: #4334eb;
+      color: white; 
+      min-height: 55px; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px; 
+      text-align: center; 
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding-top: 15px; 
+      }
+
+      body{
+        background-color: #ededed;
+        margin:0px;
+        padding:0px;
+      }
